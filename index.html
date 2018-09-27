@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word-Guess</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/game.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <script src="assets/game.js"></script>
+</head>
+<body onload="start()">
+    
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-8" id="div1">
+            <img class = "blink_me" src="assets/fruit.jpg" alt="fruits" height="200px">
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <img id="myImage" src="" style="width:200px">
+        </div>
+        <div class="col-md-3">
+            <p><strong>Press any key to start.</strong></p>
+            <br>
+            <p><strong>Guess remaining :<span id="guess"></span></strong></p>
+            <br>
+            <p><strong>Wins :</strong> <span id="paragraph"></span></p>
+            <br>
+            <p><strong>current word :  </strong><span id="para2"></span></p>
+            <br>
+            <p><strong>Guesses so far :</strong><span id="guesses"></span></p>
+        </div>    
+    </div>
+    <br>
+
+</body>
+</html>
